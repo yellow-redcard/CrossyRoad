@@ -613,8 +613,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoMove: 1
   player: {fileID: 916092705}
-  speed: 1
-  acceleration: 0.05
+  speed: 0.75
+  acceleration: 0.03
   offset: {x: 5, y: 7, z: -4}
 --- !u!114 &534669907
 MonoBehaviour:
@@ -1105,6 +1105,8 @@ MonoBehaviour:
   - {fileID: 173304, guid: d73cba9fda67c514a9f5de55b68877ab, type: 3}
   - {fileID: 160302, guid: 73c5604e817fc0a44a46505ca4499d3a, type: 3}
   - {fileID: 173304, guid: d73cba9fda67c514a9f5de55b68877ab, type: 3}
+  - {fileID: 135800, guid: 82d9c4adfc0d40b49ad4a7dd0b298b9a, type: 3}
+  - {fileID: 139206, guid: 508940e8e0a497243b7dc9f78fc61cf8, type: 3}
   height:
   - -0.5
   - -0.5
@@ -1117,6 +1119,8 @@ MonoBehaviour:
   - -0.55
   - -0.55
   - -0.55
+  - -0.55
+  - -0.65
 --- !u!4 &1254106978
 Transform:
   m_ObjectHideFlags: 0
@@ -1631,7 +1635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99ef3eddeb980443ca19af57276da19f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelCount: 150
+  levelCount: 200
   camera: {fileID: 534669904}
   levelGenerator: {fileID: 1254106977}
   pools:

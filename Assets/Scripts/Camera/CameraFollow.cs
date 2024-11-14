@@ -6,8 +6,8 @@ public class CameraFollow : MonoBehaviour
 {
     public bool autoMove = true;
     public GameObject player = null;
-    public float speed = 1f;
-    public float acceleration = 0.03f;
+    public float speed = 0.75f;
+    public float acceleration = 0.05f;
     public Vector3 offset = new Vector3(5, 7, -4);
 
     Vector3 depth = Vector3.zero;
